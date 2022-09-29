@@ -11,6 +11,7 @@ class UserDataController extends Controller
 {
     public function index(){
         $users=UserData::latest()->get();
+        
         return view('user-data',compact('users'));
     }
     public function store(Request $request){
