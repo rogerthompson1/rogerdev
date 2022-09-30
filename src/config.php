@@ -1,6 +1,5 @@
 <?php
-echo "321";
-$link = new mysqli("localhost", "root", "123456789", "roger");
+$link = new mysqli("database", "roger", "123456789", "roger");
 // Check connection
 if ($link->connect_error) {
     die("Connection failed: " . $link->connect_error);
