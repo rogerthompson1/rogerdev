@@ -1,5 +1,5 @@
 <?php
-$link = new mysqli("database", "root", "123456789", "roger");
+$link = new mysqli("10.46.48.4", "root", "123456789", "roger");
 // Check connection
 if ($link->connect_error) {
     die("Connection failed: " . $link->connect_error);
